@@ -1,0 +1,174 @@
+[28-May-2020 10:15:38 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:15:40 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:15:44 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:15:55 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/fitnesslinks.php on line 11
+[28-May-2020 10:15:55 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/contentBlogComment.php on line 11
+[28-May-2020 10:15:58 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:16:30 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:16:40 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/fitnesslinks.php on line 11
+[28-May-2020 10:16:40 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/contentBlogComment.php on line 11
+[28-May-2020 10:16:41 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:18:43 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:18:51 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/fitnesslinks.php on line 11
+[28-May-2020 10:18:51 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/contentBlogComment.php on line 11
+[28-May-2020 10:18:52 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/programminglinks.php on line 11
+[28-May-2020 10:18:52 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/contentBlogComment.php on line 11
+[28-May-2020 10:18:53 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:19:01 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:19:06 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/programminglinks.php on line 11
+[28-May-2020 10:19:06 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/contentBlogComment.php on line 11
+[28-May-2020 10:19:07 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:19:08 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/fitnesslinks.php on line 11
+[28-May-2020 10:19:08 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/contentBlogComment.php on line 11
+[28-May-2020 10:36:44 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'162.241.252.98' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:46:18 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:46:28 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 10:46:28 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/programminglinks.php on line 11
+[28-May-2020 10:46:29 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/contentBlogComment.php on line 11
+[28-May-2020 10:46:29 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/fitnesslinks.php on line 11
+[28-May-2020 10:46:29 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/contentBlogComment.php on line 11
+[28-May-2020 10:46:55 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/admin.php on line 17
+[28-May-2020 10:46:55 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/public_html/php/admin.php on line 23
+[28-May-2020 10:46:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home4/chaelfoo/public_html/php/admin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/admin.php on line 26
+[28-May-2020 10:46:57 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/admin.php on line 17
+[28-May-2020 10:46:57 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/public_html/php/admin.php on line 23
+[28-May-2020 10:46:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home4/chaelfoo/public_html/php/admin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/admin.php on line 26
+[28-May-2020 10:46:57 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/admin.php on line 17
+[28-May-2020 10:46:57 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/public_html/php/admin.php on line 23
+[28-May-2020 10:46:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home4/chaelfoo/public_html/php/admin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/admin.php on line 26
+[28-May-2020 10:46:57 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/admin.php on line 17
+[28-May-2020 10:46:57 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/public_html/php/admin.php on line 23
+[28-May-2020 10:46:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home4/chaelfoo/public_html/php/admin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/admin.php on line 26
+[28-May-2020 10:47:45 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/admin.php on line 17
+[28-May-2020 10:47:45 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/public_html/php/admin.php on line 23
+[28-May-2020 10:47:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home4/chaelfoo/public_html/php/admin.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/admin.php on line 26
+[28-May-2020 10:49:05 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'chaelfoo_dbuser'@'box5703.bluehost.com' to database 'foosdatabase' in /home4/chaelfoo/public_html/php/homepagelinks.php on line 11
+[28-May-2020 11:07:57 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 11:08:00 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 11:22:14 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 11:22:42 America/Boise] PHP Warning:  Use of undefined constant session_time_out - assumed 'session_time_out' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/postBlog.php on line 66
+[28-May-2020 11:22:42 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chaelfoo/public_html/php/postBlog.php:1) in /home4/chaelfoo/public_html/php/postBlog.php on line 168
+[28-May-2020 11:22:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in /home4/chaelfoo/public_html/php/homepagelinks.php:33
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/homepagelinks.php on line 33
+[28-May-2020 11:22:49 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in /home4/chaelfoo/public_html/php/homepagelinks.php:33
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/homepagelinks.php on line 33
+[28-May-2020 11:26:23 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in /home4/chaelfoo/public_html/php/homepagelinks.php:33
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/homepagelinks.php on line 33
+[28-May-2020 11:26:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in /home4/chaelfoo/public_html/php/programminglinks.php:32
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/programminglinks.php on line 32
+[28-May-2020 11:27:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in /home4/chaelfoo/public_html/php/fitnesslinks.php:32
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/fitnesslinks.php on line 32
+[28-May-2020 11:27:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in /home4/chaelfoo/public_html/php/homepagelinks.php:33
+Stack trace:
+#0 {main}
+  thrown in /home4/chaelfoo/public_html/php/homepagelinks.php on line 33
+[28-May-2020 11:41:31 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 11:41:52 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 11:41:59 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 11:56:25 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 11:56:54 America/Boise] PHP Warning:  Use of undefined constant session_time_out - assumed 'session_time_out' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/postBlog.php on line 66
+[28-May-2020 11:56:54 America/Boise] PHP Warning:  move_uploaded_file(/var/www/html/images/uploads/2020052811561928_SmithChildren.jpg): failed to open stream: Permission denied in /home4/chaelfoo/public_html/php/postBlog.php on line 107
+[28-May-2020 11:56:54 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpGQESbE' to '/var/www/html/images/uploads/2020052811561928_SmithChildren.jpg' in /home4/chaelfoo/public_html/php/postBlog.php on line 107
+[28-May-2020 11:56:55 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chaelfoo/public_html/php/postBlog.php:1) in /home4/chaelfoo/public_html/php/postBlog.php on line 168
+[28-May-2020 12:08:53 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 12:09:07 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 12:09:29 America/Boise] PHP Warning:  Use of undefined constant session_time_out - assumed 'session_time_out' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/postBlog.php on line 66
+[28-May-2020 12:09:29 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chaelfoo/public_html/php/postBlog.php:1) in /home4/chaelfoo/public_html/php/postBlog.php on line 168
+[28-May-2020 12:23:44 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 12:23:53 America/Boise] PHP Warning:  Use of undefined constant session_time_out - assumed 'session_time_out' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/postBlog.php on line 66
+[28-May-2020 12:23:53 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chaelfoo/public_html/php/postBlog.php:1) in /home4/chaelfoo/public_html/php/postBlog.php on line 168
+[28-May-2020 12:50:09 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 12:50:27 America/Boise] PHP Warning:  Use of undefined constant session_time_out - assumed 'session_time_out' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/postBlog.php on line 66
+[28-May-2020 12:50:27 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chaelfoo/public_html/php/postBlog.php:1) in /home4/chaelfoo/public_html/php/postBlog.php on line 168
+[28-May-2020 14:04:14 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[28-May-2020 14:05:08 America/Boise] PHP Warning:  Use of undefined constant session_time_out - assumed 'session_time_out' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/postBlog.php on line 67
+[28-May-2020 14:05:08 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chaelfoo/public_html/php/postBlog.php:1) in /home4/chaelfoo/public_html/php/postBlog.php on line 169
+[29-May-2020 04:14:25 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[29-May-2020 04:15:28 America/Boise] PHP Warning:  Use of undefined constant session_time_out - assumed 'session_time_out' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/postBlog.php on line 67
+[29-May-2020 04:15:28 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chaelfoo/public_html/php/postBlog.php:1) in /home4/chaelfoo/public_html/php/postBlog.php on line 169
+[16-Jun-2020 13:43:38 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[16-Jun-2020 13:43:49 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[16-Jun-2020 13:44:05 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[16-Jun-2020 13:44:32 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[16-Jun-2020 13:44:35 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[16-Jun-2020 13:44:51 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[16-Jun-2020 13:44:58 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[16-Jun-2020 13:45:00 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[16-Jun-2020 13:45:12 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[18-Jun-2020 07:48:15 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[18-Jun-2020 07:49:46 America/Boise] PHP Warning:  Use of undefined constant session_time_out - assumed 'session_time_out' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/postBlog.php on line 65
+[18-Jun-2020 07:49:46 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chaelfoo/public_html/php/postBlog.php:1) in /home4/chaelfoo/public_html/php/postBlog.php on line 177
+[18-Jul-2020 06:52:51 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[01-Aug-2020 04:19:26 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[01-Aug-2020 04:19:29 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[01-Aug-2020 04:19:48 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[01-Aug-2020 04:19:51 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[10-Aug-2020 04:09:25 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[10-Aug-2020 04:15:39 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[13-Aug-2020 04:54:02 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/public_html/php/admin.php on line 42
+[07-Sep-2020 14:40:06 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home4/chaelfoo/etc/security.php on line 174
+[07-Sep-2020 14:40:06 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/etc/security.php on line 185
+[07-Sep-2020 14:40:06 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/etc/security.php on line 188
+[07-Sep-2020 14:40:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home4/chaelfoo/etc/security.php:191
+Stack trace:
+#0 /home4/chaelfoo/public_html/php/admin.php(10): usersecurity->validateip()
+#1 {main}
+  thrown in /home4/chaelfoo/etc/security.php on line 191
+[07-Sep-2020 14:40:31 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home4/chaelfoo/etc/security.php on line 174
+[07-Sep-2020 14:40:31 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/etc/security.php on line 185
+[07-Sep-2020 14:40:31 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/etc/security.php on line 188
+[07-Sep-2020 14:40:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home4/chaelfoo/etc/security.php:191
+Stack trace:
+#0 /home4/chaelfoo/public_html/php/admin.php(10): usersecurity->validateip()
+#1 {main}
+  thrown in /home4/chaelfoo/etc/security.php on line 191
+[07-Sep-2020 14:40:34 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home4/chaelfoo/etc/security.php on line 174
+[07-Sep-2020 14:40:34 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/etc/security.php on line 185
+[07-Sep-2020 14:40:34 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/etc/security.php on line 188
+[07-Sep-2020 14:40:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home4/chaelfoo/etc/security.php:191
+Stack trace:
+#0 /home4/chaelfoo/public_html/php/admin.php(10): usersecurity->validateip()
+#1 {main}
+  thrown in /home4/chaelfoo/etc/security.php on line 191
+[07-Sep-2020 14:40:41 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home4/chaelfoo/etc/security.php on line 174
+[07-Sep-2020 14:40:41 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/etc/security.php on line 185
+[07-Sep-2020 14:40:41 America/Boise] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home4/chaelfoo/etc/security.php on line 188
+[07-Sep-2020 14:40:41 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home4/chaelfoo/etc/security.php:191
+Stack trace:
+#0 /home4/chaelfoo/public_html/php/admin.php(10): usersecurity->validateip()
+#1 {main}
+  thrown in /home4/chaelfoo/etc/security.php on line 191
+[07-Sep-2020 14:47:36 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/etc/security.php on line 245
+[07-Sep-2020 14:47:38 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/etc/security.php on line 245
+[07-Sep-2020 14:47:44 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/etc/security.php on line 245
+[07-Sep-2020 14:47:46 America/Boise] PHP Warning:  Use of undefined constant Result - assumed 'Result' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/etc/security.php on line 135
+[07-Sep-2020 15:20:21 America/Boise] PHP Warning:  Use of undefined constant userpassword - assumed 'userpassword' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/etc/security.php on line 245
+[07-Sep-2020 15:20:23 America/Boise] PHP Warning:  Use of undefined constant Result - assumed 'Result' (this will throw an Error in a future version of PHP) in /home4/chaelfoo/etc/security.php on line 135
+[07-Sep-2020 15:22:10 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/chaelfoo/public_html/php/postBlog.php:1) in /home4/chaelfoo/public_html/php/postBlog.php on line 133
+[09-Nov-2020 05:07:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'monarxprotect-php73.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/monarxprotect-php73.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/monarxprotect-php73.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/monarxprotect-php73.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/monarxprotect-php73.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[09-Nov-2020 13:53:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'monarxprotect-php73.so' (tried: /opt/cpanel/ea-php73/root/usr/lib64/php/modules/monarxprotect-php73.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/monarxprotect-php73.so: cannot open shared object file: No such file or directory), /opt/cpanel/ea-php73/root/usr/lib64/php/modules/monarxprotect-php73.so.so (/opt/cpanel/ea-php73/root/usr/lib64/php/modules/monarxprotect-php73.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0

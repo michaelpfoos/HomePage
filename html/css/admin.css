@@ -1,0 +1,156 @@
+/*
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 70, 70);    
+}
+*/
+
+#loginForm {    
+    display: grid;   
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto;   
+    grid-auto-rows: auto;    
+    grid-row-gap: 0.251rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: rgb(221, 217, 217) ridge 0.15rem;
+    background: rgb(236, 236, 241);
+}
+
+#loginFormHeader {
+    font-weight: bold;
+    font-size: 2em;
+    grid-column: 2 / span 5;    
+    justify-self: start;    
+}
+
+.formlabelUser {
+    grid-column: 2 / span 5;      
+    font-size: 1.5em;        
+}
+
+.loginFormTextAreaUser {
+    grid-column: 2 / span 4;      
+    font-size: 1.5em;   
+      
+}
+
+.formlabelPassword {
+    grid-column: 2 / span 5;      
+    font-size: 1.5em;  
+     
+}
+
+.loginFormTextAreaPassword {
+    grid-column: 2 / span 4;      
+    font-size: 1.5em;        
+}
+
+#forgotpassword_div {
+    grid-column: 2 / span 5;    
+    justify-self: start;
+}
+
+#forgotpassword {
+    height: 1.5em;
+    width: 1.15em;
+    vertical-align: bottom;
+}
+
+#forgotpassword_label {
+    font-size: 1.5em;
+}
+
+
+#loginFormSubmit {
+    grid-column: 2 / span 2;    
+    font-family: 'Raleway', sans-serif;  
+    background-color: rgb(2, 70, 70); 
+    color: white;
+    border: inset;   
+    border: none; 
+    font-size: 1.5em;
+    height: 1.75em;
+    width: 10em;   
+    margin-top: 0.5em;     
+    margin-bottom:0.5em;
+}
+
+#loginFormSubmit:hover {
+    background-color: rgb(13, 51, 1);    
+}
+
+#loginFormSubmit:active {    
+    background-color: rgb(169, 231, 231); 
+}
+
+#passwordError {
+    grid-column: 2 / span 5;     
+    color: red;    
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/*Media queries for resposnivness.*/  
+@media screen and (max-width: 850px) {
+    #loginForm {            
+        width: 25em;        
+        grid-template-columns: 2fr 3fr 1fr;    
+        margin-top: 1em;  
+    }
+    
+    #loginFormHeader {       
+        font-size: 1em;       
+    }
+    
+    .formlabelUser {        
+        grid-column: 1 / span 2;                 
+        font-size: 0.75em;
+        margin-bottom: 0.1em;
+        margin-left: 1em;  
+    }
+    
+    .loginFormTextAreaUser {    
+        grid-column: 1 / span 2;   
+        width: 75%;         
+        font-size: 0.75em;
+        margin-bottom: 0.1em;
+        margin-left: 1em;       
+    }
+    
+    .formlabelPassword {  
+        grid-column: 1 / span 2;                 
+        font-size: 0.75em;
+        margin-bottom: 0.1em;
+        margin-left: 1em;  
+    }
+    
+    .loginFormTextAreaPassword {               
+        grid-column: 1 / span 2;   
+        width: 75%;         
+        font-size: 0.75em;
+        margin-bottom: 0.1em;
+        margin-left: 1em;    
+    }
+    
+    
+    #loginFormSubmit {       
+        font-size: 0.75em;
+        height: 1.5em;
+        width: 7.5em;   
+        margin-top: 0.25em;     
+        margin-bottom:0.25em;
+    }  
+  
+    
+    #passwordError {          
+        grid-column: 1 / span 2;                 
+        font-size: 0.75em;
+        margin-bottom: 0.1em;
+        margin-left: 1em;  
+    }
+
+}

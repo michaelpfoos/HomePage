@@ -1,0 +1,198 @@
+.mainPageHeader {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;       
+    color: rgb(2, 70, 70);
+}
+
+.image {    
+    height: auto;       
+    max-width: 10%;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;       
+    border-radius: 5%; 
+}
+
+.mainGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 15px;
+    grid-auto-rows: auto;    
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.gridWork {
+    grid-column: 1 / span 1;  
+    padding-right: 5px;   
+    text-align: center;
+}
+
+#workExperience {
+    border: 3px ridge rgb(2, 70, 70);   
+    border-radius: 15px;   
+    padding-bottom: 2em;
+}
+
+.gridWork ul {    
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gridWork h3 {    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 125%; 
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(2, 70, 70);
+    margin-block-start: 0.73em;
+    margin-block-end: 0.83em;
+}
+
+.gridWork .workJobCompany {
+ font-weight: bold; 
+ font-size: 100%; 
+ margin: 5px;
+ display: inline-block;
+ color: rgb(2, 70, 70);
+}
+
+.workJobTitle {
+    font-size: 85%;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.workjobDate {
+    display: block;
+    font-size: 70%;
+}
+
+.gridMain {
+    grid-column: 2 / span 2;       
+}
+
+.gridMainSubTitle {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(2, 70, 70);
+    font-size: 125%;
+    font-weight: bold;
+    margin-block-end: 0em;
+}
+
+.mainText {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.gridWorkLower {
+    display: none;
+}
+
+/*Insert a break point for the main content*/
+@media screen and (max-width: 675px) {
+    .mainGrid {
+        display: grid;
+        grid-template-columns: 5% auto 5%;                                         
+        grid-column-gap: 5px;
+        grid-row-gap: 15px;
+        grid-auto-rows: auto;
+        margin-right: 0.25rem; 
+        margin-left: 0.25rem;  
+    }
+
+    .gridWork {      
+        display: none;       
+    }
+
+    .gridWorkLower {
+        display: block;
+        grid-column: 1 / span 5;           
+        text-align: center;
+        width: 50%;
+    }
+
+    .gridWorkLower ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .gridWorkLower h3 {
+        font-weight: bolder;
+        font-size: 125%;
+        text-decoration: underline;
+        text-align: center;
+        color: rgb(2, 70, 70);
+    }
+    
+    .gridWorkLower .workJobCompany {
+     font-weight: bold; 
+     font-size: 100%;
+     margin: 5px;
+     display: inline-block;
+     color: rgb(2, 70, 70);
+    }
+
+    .gridMain {
+        grid-column: 1 / span 3;       
+    }
+
+    .image {        
+        max-width: 20%;        
+    }
+
+    .mainArticle {
+        grid-column: 2 / span 1; 
+    }
+
+    p {
+        font-size: 125%;
+    }
+
+
+}
+
+@media screen and (min-width: 1080px) {
+    /*Code goes here*/
+    .mainGrid {        
+        grid-column-gap: 0.35em;
+        grid-row-gap: 1em;           
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .mainPageHeader {
+        font-size: 2em;
+    }
+
+    .gridMainSubTitle {
+        font-size: 2.0em;     
+    }
+
+    .gridWork h3{
+        font-size: 2.00em;
+    } 
+
+    .gridWork .workJobCompany {
+        font-size: 1.4em;
+    }
+
+    .workJobTitle {
+        font-size: 1.15em;
+    }
+
+    .workjobDate {
+        font-size: 1em;
+    }
+
+    .mainText {
+        font-size: 1.75em;
+    }
+    
+}

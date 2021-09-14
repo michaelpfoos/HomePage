@@ -1,0 +1,163 @@
+#pageTitle {
+    padding-top: 10px;
+    text-align: center;    
+    margin-left:10%;
+    margin-right:10%;
+    color: rgb(2, 70, 70);
+}
+
+#inputForm {
+    display: grid;
+    grid-template-columns: 125px 1fr 1fr 1fr 1fr 0.5fr;    
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-auto-rows: auto;    
+    margin-right: 5%;
+    width: 100%; 
+    padding-top: 25px;
+}
+
+.inputLabel {     
+    grid-column: 1 / span 1;
+    text-align: right;
+}
+
+.textField {    
+    height: 6em;  
+    grid-column: 2 / span 4; 
+    background-color: rgb(240, 240, 240);       
+}
+
+.captionField {
+    height: 2em;
+    grid-column: 2 / span 4;
+    background-color: rgb(240, 240, 240);    
+}
+
+.textFieldTitle {
+    width: auto;
+    height: 2em;  
+    grid-column: 2 / span 4; 
+    background-color: rgb(240, 240, 240);      
+}
+
+#keywordsDescription {
+    grid-column: 2 / span 4;
+    font-size: 1em; 
+    font-weight: bold;   
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.submit {
+    grid-column: 2 / span 3;    
+    background-color: rgb(2, 70, 70); 
+    color: white;
+    width: 30%;
+    border: inset; 
+    margin-bottom: 0px;     
+    border: none; 
+}
+
+.submit:hover {
+    background-color: rgb(13, 51, 1);    
+}
+
+.submit:active {    
+    background-color: rgb(169, 231, 231); 
+}
+
+.imageUpload {
+    grid-column: 2 / span 4;
+}
+
+.dropDownField {
+    grid-column: 2 / span 2;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+#sessionHolder {
+    display:none;
+}
+
+/*Media query for large screen.*/  
+@media screen and (min-width: 1080px) {
+    #pageTitle {
+        padding-top: 1em;
+        font-size: 2em;
+        text-align: center;    
+        margin-left:10%;
+        margin-right:10%;
+        color: rgb(2, 70, 70);
+    }
+    
+    #inputForm {
+        display: grid;
+        grid-template-columns:  repeat(12, 1fr); 
+        grid-column-gap: .25em;
+        grid-row-gap: .25em;      
+        width: 100%; 
+        padding-top: 1.75em;
+    }
+    
+    .inputLabel {     
+        grid-column: 1 / span 2;
+        text-align: right;
+        font-size: 2em;
+    }
+    
+    .textField {    
+        height: 8em;  
+        grid-column: 3 / span 8; 
+        background-color: rgb(240, 240, 240);       
+    }
+    
+    .captionField {
+        height: 4em;
+        grid-column: 3 / span 8; 
+        background-color: rgb(240, 240, 240);    
+    }
+    
+    .textFieldTitle {
+        width: auto;
+        height: 4em;  
+        grid-column: 3 / span 8; 
+        background-color: rgb(240, 240, 240);      
+    }
+    
+    #keywordsDescription {
+        grid-column: 3 / span 8; 
+        font-size: 2em; 
+        font-weight: bold;   
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .submit {
+        grid-column: 3 / span 5;     
+        background-color: rgb(2, 70, 70); 
+        color: white;
+        padding: 0.15em;
+        font-size: 1.5em;        
+        border: inset; 
+        margin-bottom: 0px;     
+        border: none; 
+    }
+    
+    .imageUpload {
+        grid-column: 3 / span 8; 
+        font-size: 2em;
+    }
+    
+    .dropDownField {
+        grid-column: 3 / span 3; 
+        text-align: left;
+    }
+    
+  
+
+}
+
+
+

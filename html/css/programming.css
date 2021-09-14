@@ -1,0 +1,831 @@
+.mainPageHeader {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: rgb(2, 70, 70);    
+}
+
+/*for nav list*/
+.linkHeader {
+    color: rgb(2, 70, 70);    
+    font-size: 100%;    
+    margin-bottom: 0.3em;
+    text-decoration: underline;
+}
+
+.navLinkList {    
+    list-style-type: none;   
+    margin-left: 2rem;
+    margin-right: 2rem;   
+    padding: 0;    
+    font-family: 'Open Sans', sans-serif;     
+}    
+
+.linkListItem {
+    text-decoration: none;      
+    color: black;    
+}
+
+/*post comment modal section*/
+#postCommentModal {
+    display: none;
+    position: fixed;
+    z-index: 110;
+    padding-top: 20%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+#commentModalColor {      
+    background-color:  rgb(2, 70, 70);  
+    height: 1em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;         
+}
+
+#commentModalContent {
+    background-color: #fefefe;
+    margin: auto;      
+    width: 20em;    
+    height: 4.5em;
+}
+
+.commentClose {
+    color:white;
+    float: right;
+    font-size: 1.75em;
+    font-weight: bold;    
+    margin-top: -0.85em;
+}
+
+.commentClose:hover, .commentClose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#postCommentP {
+    font-size: 1em;
+    vertical-align: middle;
+    text-align: center;    
+}
+
+.postCommentError {
+    grid-column: 1 / span 3;
+    font-size: 1.5em;
+    margin-top: 0;
+    color:red;    
+}
+/*End of post comment modal section*/
+
+.blogPostSection {
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;        
+    grid-row-gap: 0.2em;
+    grid-auto-rows: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;    
+}
+
+.blogPostHeader {
+    grid-column: 1 / span 3;
+    font-family: 'Open Sans', sans-serif;   
+    font-weight: bold;    
+    display: inline-block;
+    margin-bottom: 0px;
+    color: rgb(2, 70, 70);     
+}
+
+.blogPostDate {
+    grid-column: 1 / span 3;
+    font-style: italic;     
+    margin-top: 0px; 
+    color: rgb(2, 70, 70);    
+}
+
+.blogPostImage {
+    grid-column: 1 / span 3;
+    justify-self: center;
+    max-width: 45%;    
+    max-height: 300px;
+    height:auto;      
+    border-radius: 5%; /*Round the corners*/
+    filter: drop-shadow(0.4em 0.4em 0.4em #222222); /*add a drop shadow*/  
+    cursor: pointer;
+    transition: 0.3s;     
+}
+
+.blogPostImage:hover {
+    opacity: 0.7;
+}
+
+.blogPostParagraph {
+   grid-column: 1 / span 3;
+   font-family: 'Raleway', sans-serif;    
+   text-indent: 2em;  
+   margin-top: 0.27em;
+   margin-bottom: 0.27em;
+}
+
+/*Blog Post Links section*/
+#blogPostLinks {
+    grid-column: 1 / span 3;    
+    margin-top: 0.27em;
+    margin-bottom: 0.27em;
+}
+
+#blogPostLinksHeader {
+    color: rgb(2, 70, 70); 
+    font-family: 'Open Sans', sans-serif;   
+    font-weight: bold;  
+    font-size: 1.25em;      
+    margin-bottom: 0.1em;
+}
+
+.linkContainerParagraph {
+    text-indent: 1em;  
+    margin-bottom: 0.25em;   
+    padding-bottom: 0.25em;    
+}
+
+.blogPostLink {      
+    display: block;
+    max-width: 75%;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(2, 70, 70);
+    color: white;  
+    border: none;
+    padding: 0.25em 3em;    
+}
+
+.blogPostLink:hover {
+    background-color: rgb(13, 51, 1);  
+}
+
+.blogPostLink:active {
+    background-color: rgb(169, 231, 231); 
+}
+/*Blog Post Links end section*/
+
+.blogPostCommentsHeader {
+    grid-column: 1 / span 5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: rgb(2, 70, 70); 
+}
+
+#btnComments {
+  font-family: 'Raleway', sans-serif;  
+  background-color: rgb(2, 70, 70); 
+  color: white;  
+  border: none; 
+  height: 25px;
+  width: 140px;  
+  margin-top: 0em;  
+  margin-bottom: 5px;
+  margin-left: 2rem;  
+}
+
+#btnComments:hover {
+    background-color: rgb(13, 51, 1);    
+}
+
+#btnComments:active {    
+    background-color: rgb(169, 231, 231); 
+}
+
+#btnPostComment {
+    font-family: 'Raleway', sans-serif;    
+    background-color: rgb(2, 70, 70); 
+    color: white;
+    border: none;           
+    height: 25px;
+    width: 140px;
+}
+
+#btnPostComment:hover {
+    background-color: rgb(13, 51, 1);    
+}
+
+#btnPostComment:active {    
+    background-color: rgb(169, 231, 231); 
+}    
+
+.inputComment {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-auto-rows: auto;
+    width: 100%; 
+    margin-left: 2rem;
+}
+
+.inputLabel {     
+    grid-column: 1 / span 3;
+    text-align: left;
+}
+
+.inputTextName {     
+    grid-column: 1 / span 3; 
+    height: 1.5em;
+    background-color: rgb(240, 240, 240);   
+    max-width: 75%;    
+}
+
+.inputTextComment {    
+    grid-column: 1 / span 3; 
+    height: 3em;
+    max-width: 75%;         
+    background-color: rgb(240, 240, 240);
+}
+
+.submit {
+    grid-column: 1 / span 2;    
+    background-color: rgb(2, 70, 70); 
+    color: white;
+    width: 100px;
+    border: inset; 
+    margin-bottom: 0px;     
+    border: none; 
+    height: 25px;
+    width: 150px;
+}
+
+.submit:hover {
+    background-color: rgb(13, 51, 1);    
+}
+
+.submit:active {    
+    background-color: rgb(169, 231, 231); 
+}
+
+.blogDivHide {
+    display: none;
+}
+
+.linkListItem:hover {
+    color: rgb(2, 70, 70);    
+    text-decoration: underline;
+}
+
+.linkListItem:focus {
+    color: rgb(71, 107, 5);    
+    text-decoration: underline;
+}
+
+/*Comment section*/
+.blogPostComments { 
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 250px 150px 1fr;    
+    grid-template-rows: 30px auto;    
+    grid-row-gap: 1em;
+    grid-auto-rows: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;       
+    border: 3px ridge rgb(2, 70, 70);   
+    border-radius: 15px; 
+}
+
+.commentName {
+    font-family: 'Raleway', sans-serif;    
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    display:inline;    
+}
+
+.commentDate {
+    font-family: 'Raleway', sans-serif;
+    display: inline;      
+    grid-column: 2 / span 2;
+    grid-row: 1;
+}
+
+.commentText {
+    font-family: 'Raleway', sans-serif;    
+    text-indent: 2em;
+    margin-top: 3px;
+    margin-left: 5%;
+    margin-right: 5%;    
+    grid-column: 1 / span 3;
+}
+/*End of comments*/
+/*css modal animdation*/
+@keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+/* Add Animation */
+.modal-content, #Modalcaption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+/*End of animation*/
+/*Modal section*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 110; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+  }
+
+  /* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    height: auto;    
+    max-width: 70%;
+    max-height: 70%;
+  }
+  
+  /* Caption of Modal Image */
+  #Modalcaption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+
+  /* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.blogPostCommentsHide {
+    display: none;
+}
+
+.blogPostHide {
+    display: none;
+}   
+
+/*Media queries for resposnivness.*/  
+@media screen and (max-width: 675px) {
+    .blogPostSection {        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;  
+        margin-right: 0.25rem; 
+        margin-left: 0.25rem;                     
+    }
+
+    .navLinkList {              
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;               
+    }
+
+    /*modal*/
+    #commentModalColor {
+        height: 0.75em;
+    }
+
+    #commentModalContent {
+        width: 15em;
+        height: 3.375em;
+    }
+
+    .commentClose {        
+        font-size: 1.3125em;        
+    }
+
+    #postCommentP {
+        font-size: 0.75em;
+    }
+
+    .postCommentError {        
+        font-size: 0.75em;        
+    }
+
+    /*end of modal*/    
+
+    .blogPostHeader {
+        grid-column: 1 / span 3;
+        font-family: 'Open Sans', sans-serif;   
+        font-weight: bold;    
+        display: inline-block;
+        margin-bottom: 0px;
+        color: rgb(2, 70, 70);     
+    }
+    
+    .blogPostDate {
+        grid-column: 1 / span 3;         
+    }
+     
+    .blogPostParagraph {
+       grid-column: 1 / span 3;   
+       font-size: 125%;
+       text-indent: 1em;
+    }
+
+    .blogPostImage {
+        grid-column: 1 / span 3;            
+        max-width: 50%;  
+    }
+    
+    .blogPostCommentsHeader {
+        grid-column: 1 / span 3;      
+    }
+
+    /*text input section*/
+    .inputComment {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;    
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        grid-auto-rows: auto;
+        width: 100%; 
+        margin-left: 0.25rem;
+    }
+
+    .inputTextName {
+        width: auto;
+        max-width: 75%;        
+        grid-column: 1 / span 3; 
+        margin-left: 0.25em;
+        background-color: rgb(240, 240, 240);       
+    }
+    
+    .inputTextComment {
+        width: auto;
+        max-width: 75%;  
+        height: 5em;      
+        grid-column: 1 / span 3; 
+        margin-left: 0.25em;
+        background-color: rgb(240, 240, 240);
+    }
+
+    .submit {
+        grid-column: 1 / span 2;    
+        background-color: rgb(2, 70, 70); 
+        color: white;
+        width: 100px;
+        border: inset; 
+        margin-bottom: 0px;     
+        border: none; 
+        height: 25px;
+        width: 150px;
+    }
+
+    /*Comment section*/
+    .blogPostComments {         
+        display: grid;
+        grid-template-columns: 250px 1fr;    
+        grid-template-rows: 25px 25px auto;       
+        grid-auto-rows: auto;    
+        margin-right: 0.25rem; 
+        margin-left: 0.25rem;    
+        padding-top: 0.25rem;      
+            
+    }
+
+    .commentName {
+        font-family: 'Raleway', sans-serif;    
+        grid-column: 1 / span 2;
+        grid-row: 1;        
+        margin-bottom: 0em;  
+        margin-left: 0.25em;
+    }
+
+    .commentDate {
+        font-family: 'Raleway', sans-serif;            
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        margin-top: 0em;  
+        margin-left: 0.25em;
+    }
+
+    .commentText {
+        font-family: 'Raleway', sans-serif;
+        text-indent: 1em;
+        margin-top: 3px;
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+        grid-column: 1 / span 2;
+        grid-row: 3;    
+    }
+
+    #btnComments {
+        margin-left: 0.25em;
+    }
+
+    .blogPostCommentsHide {
+        display: none;
+    }
+    
+    .blogPostHide {
+        display: none;
+    }   
+    /*End of comments*/
+    .linkContainerParagraph {    
+       text-indent: 0em;
+       margin-bottom: 0.3em;    
+       margin-top: 0.3em;
+    }
+}
+
+/*Media queries for large screens.*/  
+@media screen and (min-width: 1080px) {
+    .navLinkList {            
+        margin-left: 8%;
+        margin-right: 8%;   
+           
+    }   
+
+    .blogPostSection {       
+        margin-left: 8%;
+        margin-right: 8%;    
+    }
+
+    .mainPageHeader {
+        font-size: 2em;
+    }
+
+    .linkHeader {
+        font-size: 1.75em;        
+    }
+
+    .linkListItem {
+        font-size: 1.5em;        
+    }
+  
+    #commentModalColor {
+        height: 2em;
+    }
+
+    #commentModalContent {
+        width: 40em;
+        height: 9em;
+    }
+
+    .commentClose {        
+        font-size: 3.5em;        
+    }
+
+    #postCommentP {
+        font-size: 2em;
+    }   
+
+    .postCommentError {        
+        font-size: 2.0em;        
+    }
+
+    .blogPostHeader {
+        font-size: 1.75em;
+    }
+
+    .blogPostDate {
+        font-size: 1.5em;
+    }
+
+    .blogPostParagraph {
+        font-size: 1.5em;
+    }
+
+    #blogPostLinksHeader {
+        font-size: 1.75em;
+    }
+
+    .blogPostLink {
+        font-size: 1.5em;
+    }
+
+    .inputComment {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .blogPostComments {         
+        grid-template-columns: 1fr 1fr 1fr;    
+        grid-template-rows: auto;    
+        grid-row-gap: 1.25em;    
+        margin-left: 8%;
+        margin-right: 8%;    
+        
+    }
+
+    .blogPostCommentsHeader {
+        font-size: 1.75em;
+    }
+
+    #btnComments {
+        font-size: 1.5em;        
+        height: 2em;
+        width: 280px;  
+        margin-top: 0em;  
+        margin-bottom: .5em; 
+        margin-left: 8%;        
+    }
+
+    #btnPostComment {
+        font-size: 1.5em;
+        height: 2em;
+        width: 280px;  
+        margin-top: 0em;  
+        margin-bottom: .5em;        
+    }
+
+    .inputLabel {
+        font-size: 1.5em;             
+    }
+
+    .inputTextName {
+        font-size: 1.5em;           
+    }
+
+    .inputTextComment {
+        font-size: 1.5em;        
+    }
+
+    .submit {
+        font-size: 1.5em;
+        height: 2em;
+        width: 280px;  
+        margin-top: 0em;  
+        margin-bottom: .5em;             
+    }
+
+    .commentName {
+        font-size: 1.25em;     
+        margin-left: 1em;   
+    }
+
+    .commentName b {
+        font-size: 1em;
+    }
+
+    .commentDate {
+        font-size: 1.25em;        
+    }
+
+    .commentDate b {
+        font-size: 1em;
+    }
+
+    .commentText {
+        font-size: 1.5em;
+    }
+
+}
+
+/*Media queries for larger screens.*/  
+@media screen and (min-width: 1600px) {
+    .navLinkList {            
+        margin-left: 13%;
+        margin-right: 13%;              
+    }   
+
+    .blogPostSection {       
+        margin-left: 13%;
+        margin-right: 13%;    
+    }
+
+    .mainPageHeader {
+        font-size: 2.5em;
+    }
+
+    .linkHeader {
+        font-size: 2.25em;        
+    }
+
+    .linkListItem {
+        font-size: 2em;        
+    }
+
+    .blogPostHeader {
+        font-size: 2.25em;
+    }
+
+    .blogPostDate {
+        font-size: 2em;
+    }
+
+    .blogPostParagraph {
+        font-size: 2em;
+    }
+
+    #blogPostLinksHeader {
+        font-size: 2.25em;
+    }
+
+    .blogPostLink {
+        font-size: 2em;
+    }
+
+    .inputComment {
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+    .blogPostComments {         
+        grid-template-columns: 1fr 1fr 1fr;    
+        grid-template-rows: auto;    
+        grid-row-gap: 1.25em;    
+        margin-left: 13%;
+        margin-right: 13%;    
+        
+    }
+
+    .blogPostCommentsHeader {
+        font-size: 2.25em;
+    }
+
+    .postCommentError {        
+        font-size: 2.5em;        
+    }
+
+    #btnComments {
+        font-size: 1.5em;        
+        height: 2em;
+        width: 280px;  
+        margin-top: 0em;  
+        margin-bottom: .5em; 
+        margin-left: 13%;        
+    }
+
+    #btnPostComment {
+        font-size: 1.5em;
+        height: 2em;
+        width: 280px;  
+        margin-top: 0em;  
+        margin-bottom: .5em;        
+    }
+
+    .inputLabel {
+        font-size: 2em;             
+    }
+
+    .inputTextName {
+        font-size: 2em;           
+    }
+
+    .inputTextComment {
+        font-size: 2em;        
+    }
+
+    .submit {
+        font-size: 1.5em;
+        height: 2em;
+        width: 280px;  
+        margin-top: 0em;  
+        margin-bottom: .5em;             
+    }
+
+    .commentName {
+        font-size: 1.75em;     
+        margin-left: 1em;   
+    }
+
+    .commentName b {
+        font-size: 1.15em;
+    }
+
+    .commentDate {
+        font-size: 1.75em;        
+    }
+
+    .commentDate b {
+        font-size: 1.15em;
+    }
+
+    .commentText {
+        font-size: 2em;
+    }
+
+}
+
+
+

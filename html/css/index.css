@@ -1,0 +1,178 @@
+#pageMainGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;       
+    grid-row-gap: 2%;
+    grid-auto-rows: auto;    
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+#pageMainHeader {
+    color: rgb(2, 70, 70);  
+    font-size: 125%;    
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    grid-column: 1 / span 4;
+}
+
+.textContent {
+    font-family: 'Raleway', sans-serif;
+    grid-column: 1 / span 4;
+}
+
+#navFitness {
+    grid-column: 3 / span 2;       
+}
+
+#navProgramming {
+    grid-column: 1 /span 2; 
+}
+
+
+.linkHeader {
+    color: rgb(2, 70, 70);    
+    font-size: 100%;    
+    text-decoration: underline;
+    margin-bottom: 2px;
+}
+
+.navLinkList {    
+    list-style-type: none;   
+    margin: 0;
+    padding: 0;    
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;      
+}    
+
+.linkListItem {
+    text-decoration: none;      
+    color: black;    
+    margin-top: 1em;
+}
+
+.linkListItem:hover {
+    color: rgb(2, 70, 70);    
+    text-decoration: underline;
+}
+
+.linkListItem:focus {
+    color: rgb(71, 107, 5);    
+    text-decoration: underline;
+}
+.image {
+    grid-column: 1 / span 4;
+    height: auto;       
+    max-width: 25%;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    border-radius: 50%;
+}
+
+/*Media queries for resposnivness.*/  
+@media screen and (max-width: 675px) {
+    #pageMainGrid {
+        display: grid;
+        grid-template-columns: 100px 100px 100px auto auto;     
+        margin-right: 0.25rem; 
+        margin-left: 0.25rem;            
+    }  
+    
+    #pageMainHeader {      
+        grid-column: 1 / span 5;
+        font-size: 150%;
+    }
+    
+    .textContent {        
+        grid-column: 1 / span 5;        
+        font-size: 125%;
+    }
+
+    .image {
+        grid-column: 1 / span 5;   
+        max-width: 55%;     
+    }
+
+    #navFitness {
+        grid-column: 1 / span 5;        
+        margin-right: 2rem;  
+    }
+    
+    #navProgramming {
+        grid-column: 1 / span 5; 
+        margin-right: 2rem;  
+    }
+
+    .linkListItem {
+        font-size: 125%;    
+    }
+
+}
+
+/*Media query for large screen.*/  
+@media screen and (min-width: 1080px) {
+    #pageMainGrid {
+        display: grid;           
+        margin-right: 8%; 
+        margin-left: 8%;            
+    }  
+
+    .textContent {
+        font-size: 1.5em;
+    }
+
+    #pageMainHeader {
+        font-size: 2em;
+    }
+
+    .linkHeader {
+        font-size: 1.5em;
+    }
+
+    .linkListItem {
+        font-size: 1.25em;
+    }
+}
+
+/*Media query for larger screens.*/  
+@media screen and (min-width: 1600px) {
+    #pageMainGrid {
+        display: grid;           
+        margin-right: 15%; 
+        margin-left: 15%;            
+    }  
+
+    .textContent {
+        font-size: 2.0em;
+    }
+
+    #pageMainHeader {
+        font-size: 2.5em;
+    }
+
+    .linkHeader {
+        font-size: 2.0em;
+    }
+
+    .linkListItem {
+        font-size: 1.75em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

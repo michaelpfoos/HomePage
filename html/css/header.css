@@ -1,0 +1,195 @@
+/*Flex Parent Container*/
+.headerParentFlex {
+    display: flex;
+    flex-flow: row nowrap; /*shorthand for flex-direction and flex-wrap*/    
+    justify-content: center; /*This defines the alignment along the main axis default is flex-start*/    
+    align-items: center;
+    margin-top: 0px;      
+    height: 35px;     
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;    
+    background-color: rgb(54, 107, 177);         
+}
+/*Holds the title, spacer, and the burger icon*/
+#divRow1 {
+ /*child properties*/
+ order: 1; 
+ flex-grow: 3;
+ max-width: 100%;
+ max-height: 100%;
+ width: auto;
+ align-self: stretch;  
+ /*parent properties*/
+ display:flex;
+ flex-flow: row nowrap;
+ align-items: center;
+ justify-content: center;
+}
+
+/*title*/
+.headerTitle {    
+    order: 1;
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;    
+    color: rgb(238, 232, 232);         
+    font-size: 150%;   
+    margin-left: 0.3125rem;   
+}
+
+#stretchRow1 {
+    order: 2;
+    flex-grow: 99;
+    background-color: red;
+}
+
+#burger {
+    order: 3;    
+    cursor: pointer;
+    display: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 1.3em;
+    height: 0.15em;
+    background-color: white;
+    margin: 0.25em 0.25em;
+    transition: 0.4s;        
+  }
+
+.change .bar1 {   
+   transform: rotate(-45deg) translate(-.3em, .3em);  /*X, Y*/
+}
+ 
+.change .bar2 {opacity: 0;
+}
+ 
+.change .bar3 {  
+   transform: rotate(45deg) translate(-.27em, -.27em);
+}
+
+
+/*The burger icon*/
+#headerBurgerButtonLink {
+   order: 4;
+   flex-grow: 1;
+   display: none;   
+   cursor: pointer;
+}
+
+/*The links*/
+.headerLink {
+    font-family: Arial, Helvetica, sans-serif;  
+    text-decoration: none;      
+    color: rgb(238, 232, 232);     
+    margin-left: 5px;
+    margin-right: 5px;    
+    order: 4;    
+    align-self: center;
+    font-size: 150%;       
+}
+
+.headerLink:hover {
+    color: rgb(192, 188, 231);
+}
+
+.headerLink:focus {
+    color: black;
+}
+
+#divSpacer {
+    height: 2.5em;
+}
+
+.hide {
+    display: none;
+}
+
+/*Insert a break point for the header*/
+@media screen and (max-width: 675px) { /*This section will deal with the response header*/ 
+    /*Use this to create space between the title and the links*/
+    .headerParentFlex {
+        height: auto;
+        min-height: 2em;        
+        flex-flow: row wrap; /*I need to animate this*/
+        justify-content: flex-start;        
+    }     
+
+    #divRow1 {
+        align-items: flex-start;
+        padding-top: 0.15em;
+    }
+
+    .bar1 {
+        margin-top: 0.375em;
+    }
+
+    #burger {
+        order: 3;
+        display: inline-block;
+        cursor: pointer;        
+    }    
+
+    /*The burger icon*/
+    #headerBurgerButtonLink {    
+    display: inline;
+    color: white;        
+    font-size: 150%;
+    margin-right: 0.3125rem;     
+}
+
+    /*The links*/
+    .headerLink {
+        order: 4;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif; 
+        text-decoration: none;      
+        color: rgb(238, 232, 232);     
+        margin-left: 0.3125rem;              
+        font-size: 1.5em;         
+    }
+
+    @keyframes shownav {
+        from {height: 0em}
+        to {height: 1.15em;}        
+    } 
+
+    .shownav {        
+        animation-name: shownav;
+        animation-duration: 0.5s;              
+        animation-fill-mode: forwards;        
+    }
+
+    .hidenav {        
+        display: none;                  
+    }
+
+    .hide {
+        display: none;    
+    }
+
+}
+
+@media screen and (min-width: 1080px) {    
+    .headerParentFlex {      
+        height: 55px;          
+    }
+
+    .headerTitle {                   
+        font-size: 2em;                   
+    }
+
+    #headerBurgerButtonLink {                   
+        font-size: 2em;        
+    }
+
+    .headerLink {
+        font-size: 2em;
+        margin-left: 0.5em;   
+    }
+
+}
+

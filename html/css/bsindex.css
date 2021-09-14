@@ -1,0 +1,46 @@
+#pageMainHeader {
+    color: rgb(2, 70, 70);  
+    font-size: 150%;    
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#balloonImage {
+    width: 50%;
+}
+
+#mainParagraph {    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linkHeader {
+    color: rgb(2, 70, 70);  
+    font-size: 125%;    
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+
+.navLinkList {    
+    list-style-type: none;   
+    margin: 0;
+    padding: 0;    
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;      
+}   
+
+.linkListItem {
+    text-decoration: none;      
+    color: black;    
+}
+
+.linkListItem:hover {
+    color: rgb(2, 70, 70); 
+    text-decoration: none;     
+}
+
+.linkListItem:focus {
+    color: rgb(71, 107, 5);    
+    text-decoration: none;  
+}
+

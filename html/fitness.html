@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="pageTitle">Michael Foos's Fitness Blog</title>        
+        <link href="css\header.css" type ="text/css" rel="Stylesheet">
+        <link href="css\fitness.css" type ="text/css" rel="Stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet"> 
+        <meta charset="utf-8"/>  
+        <meta name="description" content="Fitness Blog">
+        <meta id="keywords" name="keywords" content="Running, Jogging, Marathon, Half Marathon, Diet">
+        <meta name="author" content="Michael Foos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <body>
+      <div class="headerParentFlex" id="burgermenu">   
+        <div id="divRow1">     
+          <label class="headerTitle">Michael Foos</label>   
+          <div id="stretchRow1"></div>    
+          <div id="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>    
+          <a id="headerBurgerButtonLink">MENU</a>      
+        </div>          
+          <a class="headerLink hidenav" href="index.html">Home</a>  
+          <a class="headerLink hidenav" href="aboutme.html">About me</a>   
+          <a class="headerLink hidenav" href="programming.html">Programming</a>                          
+      </div> 
+      <div id="divSpacer"></div>
+      <div id="gridCheck"></div> <!--checks for grid support-->
+      <Header>
+        <h1 class="mainPageHeader">Fitness Goals</h1>
+      </Header>
+      <article id="navFitness">   
+        <section>          
+          <ul id="navLinksFitness" class="navLinkList">    
+            <h2 class="linkHeader">Fitness Blog Entries</h2>        
+          </ul>
+        </section>   
+      </article> 
+      <div id="imgModal" class="modal"> <!--https://www.w3schools.com/css/css3_images.asp-->
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg"> <!--was img01-->
+        <div id="Modalcaption"></div>
+      </div>
+      <div id="postCommentModal">
+        <div id="commentModalContent">
+          <div id="commentModalColor"></div>
+          <span id="commentClose" class="commentClose">&times;</span>          
+          <p id="postCommentP"></p>
+        </div>
+      </div>
+      <div class="blogDiv" id="blogDivID"> <!--Store the blog ID in the DIV-->
+      <main class="mainGrid">
+        <article class="blogPostArticle"> 
+          <section class="blogPostSection">
+            <h3 class="blogPostHeader" id="Title"></h3>
+            <p class="blogPostDate" id="Date"></p>
+            <p class="blogPostParagraph" id="Paragraph1"></p>
+            <img class="blogPostImage" id="image1">  <!--src="/images/personalrecords.png"-->
+            <p class="blogPostParagraph" id="Paragraph2"></p>
+            <img class="blogPostImage" id="image2"> 
+            <p class="blogPostParagraph" id="Paragraph3"></p>
+            <img class="blogPostImage" id="image3"> 
+            <!--links will go here-->  
+            <div id="blogPostLinks" class="blogDivHide">
+              <h5 id="blogPostLinksHeader">Links: </h5>
+            </div>
+            <h4 class="blogPostCommentsHeader">Comments</h4>            
+          </section> 
+          <button id="btnComments">Show Comments</button> <button id="btnPostComment">Add Comment</button>          
+          <!--Form to add a blog post goes below-->          
+          <div id="inputDiv">
+            <form class="inputComment">
+              <label class="inputLabel">Name: </label>
+              <textarea class="inputTextName" id="inputTextName" name="inputName"></textarea>
+              <label class="inputLabel">Comment: </label>
+              <textarea class="inputTextComment" id ="inputTextComment" name="inputComment"></textarea>                      
+              <button id="submitComment" class="submit">Submit</button>
+              <p id="postCommentError"></p>              
+            </form><br />
+          </div>        
+      </main>
+        <article id="blogComments"></article>    
+        <!--Blog Comments go below.-->            
+        </article>
+      </div>      
+      <script src="js/header.js"></script>
+      <script src="js/fitnessLinks.js"></script>
+      <script src="js/fitness.js"></script>
+      <script src="js/contentFitness.js"></script>      
+      <script src="js/blogComment.js"></script>   
+      <script src="js/gridcheck.js"></script>
+      </body>
+
+</html>

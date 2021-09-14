@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Michael Foos's Blog</title>       
+        <link href="css\header.css" type ="text/css" rel="Stylesheet">       
+        <link href="css\admin.css" type ="text/css" rel="Stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">  <!--Google Fonts-->
+        <meta name="robots" content="noindex">
+        <meta charset="utf-8"/>  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <!--Header Section-->
+    <body>
+      <div class="headerParentFlex" id="burgermenu">   
+        <div id="divRow1">     
+          <label class="headerTitle">Michael Foos</label>   
+          <div id="stretchRow1"></div>    
+          <div id="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>    
+          <a id="headerBurgerButtonLink">MENU</a>      
+        </div>          
+          <a class="headerLink hidenav" href="index.html">Site Index</a>   
+          <a class="headerLink hidenav" href="aboutme.html">About me</a>    
+          <a class="headerLink hidenav" href="programming.html">Programming</a>
+          <a class="headerLink hidenav" href="fitness.html">Fitness</a>                         
+      </div>   
+      <div id="divSpacer"></div>
+    <!--Main Section-->
+    <article id="loginForm">
+    <h1 id="loginFormHeader">Please Log in: </h1>
+    <label class="formlabelUser">Username: </label>
+    <input type ="text" id="username" class="loginFormTextAreaUser"></input>    
+    <label class="formlabelPassword">Password: </label>
+    <input type="password" id="password" class="loginFormTextAreaPassword"></input>    
+    <button id="loginFormSubmit">Login</button>
+    <div id="forgotpassword_div">
+      <input type="checkbox" id="forgotpassword" name="forgotpassword" value="forgotpassword">
+      <label for="forgotpassword" id="forgotpassword_label" >Forgot password</label>
+    </div>
+    <b id="passwordError"></b>    
+    </article>
+    <script src="js/header.js"></script>    
+    <script src="js/admin.js"></script>       
+    </body>
+</html>

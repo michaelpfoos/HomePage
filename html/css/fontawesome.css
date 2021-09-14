@@ -1,0 +1,14 @@
+#nav {
+    width: 100%;
+    min-height: 3em;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    /*background-color: cadetblue;*/
+    display: flex;
+    flex-flow: row wrap; /*shorthand for flex-direction and flex-wrap*/    
+    justify-content: center; /*This defines the alignment along the main axis default is flex-start*/    
+    align-items: center;
+}
+

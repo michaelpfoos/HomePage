@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Post Blog Information</title>       
+        <link href="css\header.css" type ="text/css" rel="Stylesheet"> 
+        <link href="css\postBlog.css" type ="text/css" rel="Stylesheet">         
+        <meta charset="utf-8"/>  
+    </head>
+    <body>
+      <div class="headerParentFlex" id="burgermenu">   
+        <div id="divRow1">     
+          <label class="headerTitle">Michael Foos</label>   
+          <div id="stretchRow1"></div>    
+          <div id="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>    
+          <a id="headerBurgerButtonLink">MENU</a>      
+        </div>          
+          <a class="headerLink hidenav" href="aboutme.html">About me</a>   
+          <a class="headerLink hidenav" href="programming.html">Programming</a>   
+          <a class="headerLink hidenav" href="fitness.html">Fitness</a>                            
+      </div>
+     <div id="divSpacer"></div>    
+      <header>
+          <h1 id="pageTitle">Blog Post Upload Page</h1>
+      </header>
+      <article id="inputArticle">
+        <form id="inputForm" action="php\postBlog.php" method="post" enctype="multipart/form-data">
+        <label class="inputLabel">Title:</label>
+        <textarea class="textFieldTitle" id="Title" name ="Title"></textarea>
+        <label class="inputLabel">Keywords:</label>
+        <textarea class="textFieldTitle" id="Keywords" name ="Keywords"></textarea>
+        <p id="keywordsDescription">Example: "SQL, Web Dev, Jogging, ETC"</p>
+        <label class="inputLabel">Paragraph 1:</label>
+        <textarea class="textField" id="Paragraph1" name ="Paragraph1"></textarea>
+        <label class="inputLabel">Paragraph 2:</label>
+        <textarea class="textField" id="Paragraph2" name ="Paragraph2"></textarea>
+        <label class="inputLabel">Paragraph 3:</label>
+        <textarea class="textField" id="Paragraph3" name ="Paragraph3"></textarea>                
+        <label class="inputLabel">Image 1:</label>
+        <input type="file" name="Image1" id="image1" class="imageUpload">
+        <label class="inputLabel">Image 1 Caption:</label>
+        <textarea class="captionField" id="image1Caption" name="image1Caption"></textarea>
+        <label class="inputLabel">Image 2:</label>
+        <input type="file" name="Image2" id="image2" class="imageUpload">
+        <label class="inputLabel">Image 2 Caption:</label>
+        <textarea class="captionField" id="image2Caption" name="image2Caption"></textarea>
+        <label class="inputLabel">Image 3:</label>
+        <input type="file" name="Image3" id="image3" class="imageUpload"> 
+        <label class="inputLabel">Image 3 Caption:</label>
+        <textarea class="captionField" id="image3Caption" name="image3Caption"></textarea>         
+        <!--add links-->
+        <label class="inputLabel">Link 1:</label>
+        <textarea class="captionField" id="link1" name="link1"></textarea>
+        <label class="inputLabel">Link Caption:</label>
+        <textarea class="captionField" id="link1Caption" name="link1Caption"></textarea>
+        <label class="inputLabel">Link 2:</label>
+        <textarea class="captionField" id="link2" name="link2"></textarea>
+        <label class="inputLabel">Link Caption:</label>
+        <textarea class="captionField" id="link2Caption" name="link2Caption"></textarea>
+        <label class="inputLabel">Link 3:</label>
+        <textarea class="captionField" id="link3" name="link3"></textarea>
+        <label class="inputLabel">Link Caption:</label>
+        <textarea class="captionField" id="link3Caption" name="link3Caption"></textarea>
+        <label for="Blog Post Type:" class="inputLabel">Blog Post Type:</label>
+        <select class="dropDownField" name="Post_Type">
+          <option value="" selected hidden></option>
+          <option value="F">Fitness</option>
+          <option value="P">Programming</option>
+        </select>
+        <input class ="submit" type="submit" value="Submit"/>  
+        <textarea id="sessionHolder" name="sessionHolder"></textarea>       
+        </form>        
+      </article>
+      <script src="js/header.js"></script>
+      <script src="js/postblog.js"></script>
+    </body>
+    
+
+</html>
